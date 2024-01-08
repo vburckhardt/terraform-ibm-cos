@@ -1,6 +1,21 @@
-# Cloud Object Storage buckets module
+# Cloud Object Storage Buckets Module
 
-You can use this submodule to provision and configure IBM [Cloud Object Storage](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) buckets.
+You can use this submodule to provision and configure IBM Cloud Object Storage buckets.
+
+Cloud Object Storage is a highly scalable, secure, and cost-effective storage solution that enables you to store and retrieve data across cloud services. It is designed to support a wide range of use cases, including data lakes, big data analytics, and cloud-native applications.
+
+To get started with Cloud Object Storage, you can use the following steps:
+
+1. Log in to your IBM Cloud account and navigate to the Cloud Object Storage dashboard.
+2. Click on the "Create Bucket" button to create a new bucket.
+3. Enter a unique name for your bucket and select a location for the bucket.
+4. Choose the storage class for your bucket, depending on your data storage needs.
+5. Set up access controls for your bucket, including permissions for read, write, and delete operations.
+6. Click on the "Create Bucket" button to create the bucket.
+
+Once you have created your bucket, you can use the Cloud Object Storage API to store and retrieve data in your bucket. You can also use the IBM Cloud console to manage your buckets and access your data.
+
+In summary, Cloud Object Storage is a powerful and flexible storage solution that can help you manage your data storage needs in the cloud. With the Cloud Object Storage module, you can easily provision and configure IBM Cloud Object Storage buckets, making it easier to store and retrieve data across cloud services.
 
 You can configure the following aspects of your instances:
 - [Bucket encryption](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-tutorial-kp-encrypt-bucket) - based on Key Protect keys
