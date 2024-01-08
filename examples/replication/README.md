@@ -1,8 +1,8 @@
-# Bucket replication example
+# Bucket Replication Example
 
-An example that shows how to configure replication between two buckets.
+An example demonstrating how to configure replication between two buckets.
 
-:information_source: This basic example creates the IBM Cloud Object Storage instances and buckets in the same account, resource group, and region. It is not designed for production use cases, where replication often requires different regions or accounts. This example uses a single rule to a single destination. Other options are available, including multiple rules, multiple destinations, selective replication, replication of deletes and bi-directional replication (add a rule to the target destination to write to the source).
+:information_source: This basic example creates the IBM Cloud Object Storage instances and buckets in the same account, resource group, and region. It is not designed for production use cases, where replication often requires different regions or accounts. This example uses a single rule to a single destination. Other options are available, including multiple rules, multiple destinations, selective replication, replication of deletes, and bi-directional replication (add a rule to the target destination to write to the source).
 
 The following resources are provisioned by this example:
 
