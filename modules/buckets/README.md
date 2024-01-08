@@ -1,6 +1,14 @@
-# Cloud Object Storage buckets module
+# Cloud Object Storage Buckets Module
 
-You can use this submodule to provision and configure IBM [Cloud Object Storage](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) buckets.
+You can use this submodule to provision and configure IBM Cloud Object Storage buckets.
+
+Cloud Object Storage is a highly scalable, secure, and cost-effective storage solution that enables you to store and retrieve data across the globe. With this module, you can easily create and manage Cloud Object Storage buckets, which are essential for storing and serving data in a cloud-native environment.
+
+To use this module, you need to have an IBM Cloud account and the necessary permissions to create and manage Cloud Object Storage buckets. You can then use the module to provision and configure buckets, and start storing and retrieving data in a secure and efficient manner.
+
+The module provides several options to customize the creation and configuration of Cloud Object Storage buckets. You can specify the bucket name, location, storage class, and access controls, among other settings. This allows you to tailor the bucket to your specific needs and ensure that your data is stored and accessed securely and efficiently.
+
+In summary, the Cloud Object Storage buckets module is a powerful tool that enables you to easily create and manage Cloud Object Storage buckets in IBM Cloud. With this module, you can store and retrieve data in a secure and efficient manner, and focus on building innovative applications and services without worrying about storage and data management.
 
 You can configure the following aspects of your instances:
 - [Bucket encryption](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-tutorial-kp-encrypt-bucket) - based on Key Protect keys

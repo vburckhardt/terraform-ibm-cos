@@ -1,4 +1,4 @@
-# One Rate plan example
+# One Rate Plan Example
 
 A simple example that shows how to provision an IBM Cloud Object Storage One Rate plan instance and an Object Storage bucket with One Rate Active storage.
 
