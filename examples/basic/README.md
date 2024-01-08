@@ -1,4 +1,4 @@
-# Basic example
+# Basic Example
 
 A simple example that shows how to provision a basic Object Storage instance and buckets.
 

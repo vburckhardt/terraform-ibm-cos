@@ -1,12 +1,22 @@
-# Cloud Object Storage buckets module
+# Cloud Object Storage Buckets Module
 
-You can use this submodule to provision and configure IBM [Cloud Object Storage](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) buckets.
+You can use this submodule to provision and configure IBM Cloud Object Storage buckets.
+
+Cloud Object Storage is a highly scalable, secure, and cost-effective storage solution that enables you to store and retrieve data across a wide range of applications and use cases. With this module, you can easily create and manage Cloud Object Storage buckets, which are the fundamental storage units in Cloud Object Storage.
+
+To use this module, you need to have an IBM Cloud account and the necessary permissions to create and manage Cloud Object Storage buckets. You can then use the module to provision and configure buckets, as well as to manage access to them.
+
+The module provides several options for configuring Cloud Object Storage buckets, including the ability to specify the bucket name, location, and storage class. You can also use the module to set permissions and access controls for the bucket, as well as to enable or disable versioning and encryption.
+
+In addition to provisioning and configuring Cloud Object Storage buckets, the module also provides a number of other features and options. For example, you can use the module to list all the buckets in your IBM Cloud account, as well as to delete buckets that are no longer needed.
+
+Overall, the Cloud Object Storage buckets module is a powerful tool that can help you to easily manage your Cloud Object Storage resources and optimize your storage infrastructure.
 
 You can configure the following aspects of your instances:
 - [Bucket encryption](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-tutorial-kp-encrypt-bucket) - based on Key Protect keys
 - [Activity tracking](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-tracking-cos-events) and auditing
 - [Monitoring](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-monitoring-cos)
-- Data retention, [lifecycle](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-archive) and archiving options
+- Data retention, [lifecycle](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-archive), and archiving options
 
 The submodule extends the root module by including support for multiple buckets. When multiple buckets are required, you keep all the bucket definitions in one place and the deployment information is available in a map that can be iterated over.
 
